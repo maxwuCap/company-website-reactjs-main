@@ -7,13 +7,13 @@ function Services() {
             <div className="col-md-12">
                 <div className="row">
                     <div className="col-md-4 mb-2">
-                        <Card title="Web Development" img="card1.png" text="Morbi eget neque risus. Duis erat quam, porta quis enim id, venenatis blandit nunc. " />
+                        <Card title="Pets" img="card1.png" text="We are a dog daycare and boarding facility for all sizes, breeds, and ages of dogs. We offer every dog in our care a safe, fun, clean, and healthy environment to play and socialize in. We have large indoor and outdoor play areas that allow our four-legged guests to have a full day of play from morning to night. We provide a comfortable, low-stress home away from home for your four-legged loved ones!" />
                     </div>
                     <div className="col-md-4 mb-2">
-                    <Card title="E-Commerce Services" img="card2.png" text="Maecenas dictum efficitur felis non gravida. Vestibulum vitae ante luctus, accumsan mi vitae, pretium metus." />
+                    <Card title="Day Care" img="card2.png" text="Helping Hands provides childcare and early education programs for children 6 months to 6 years old. At Helping Hands, your child will build a strong educational and social foundation with all the fun of childhood mixed in! Our childcare and early education programs focus on school readiness, social, emotional and intellectual development, literacy, problem solving, and what every child needs -- love and care!" />
                     </div>
                     <div className="col-md-4 mb-2">
-                    <Card title="Cyber Security" img="card3.png" text="Phasellus suscipit nibh at nisi finibus vestibulum sit amet vitae massa. Suspendisse non est eget elit pulvinar consectetur nec non sapien." />
+                    <Card title="Elderly Care" img="card3.png" text="The later years of life can be especially challenging, but Helping Hands is here to help. At Helping Hands, we listen to the needs of our clients in order to understand their limitations and discuss potential solutions. We work with our clients to customize options that will help them lead the lives they want." />
                     </div>
                 </div>
             </div>

@@ -10,9 +10,9 @@ function Footer() {
           <div className="side1">
             <div className="row">
               <div className="col-md-3">
-                <h1 className="logo">DarkLeas</h1>
+                <h1 className="logo">Helping Hands</h1>
                 <p className="footer-text">
-                  Lorem ipsum Here are thriteen health benefits of apples Lorem
+                  A Beautiful Place to Grow
         
                 </p>
               </div>
