@@ -72,11 +72,23 @@ function Navbar() {
             <li>
               <Link
                 onClick={openBar}
-                to="about-scroll"
+                activeClass="active"
+                to="services"
                 spy={true}
                 smooth={true}
                 duration={1000}
+              >
+                Forum
+                </Link>
+            </li>
+            <li>
+              <Link
+                onClick={openBar}
                 activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                duration={1000}
               >
                 About
               </Link>
