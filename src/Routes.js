@@ -1,12 +1,12 @@
 import React from "react";
-import { BrowserRouter as Routes,Route} from "react-router-dom";
-import Home from "./containers/Home";
-//import Login from "./containers/Login";
-
+import { BrowserRouter as Routers,Route} from "react-router-dom";
+import Login from "./containers/Login"
+import Main from "./components/Main"
 export default function Links() {
   return (
-    <Routes>
-          <Route path="/" component={Home}/>
-    </Routes>
+    <Routers>
+          <Route path="/" component={Main}/>
+          <Route path="/login" component={Login}/>
+    </Routers>
   );
 }

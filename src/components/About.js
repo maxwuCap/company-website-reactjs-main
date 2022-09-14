@@ -8,16 +8,10 @@ function About() {
 
       <div className="container about">
         <div className="row">
-          <div className="col-md-6 text-center">
-            <img alt="about" src="../img/img1.png" className="img-fluid" />
-          </div>
-          <div className="col-md-6">
-            <h2 className="main-title about-h2">ABOUT</h2>
-            <p className="main-p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              quam purus, ullamcorper id risus eu, consectetur consectetur
-              purus. Etiam sagittis in eros ac sollicitudin.
-            </p>
+          <div className="col-md-12 md-6">
+             <iframe src='https://www.zillow.com/view-3d-home/8a3913ee-67b5-4127-aa89-2f0a34d74922/?utm_source=captureapp' id="myIframe">
+              <h2>Tour</h2>
+             </iframe>
           </div>
         </div>
       </div>
