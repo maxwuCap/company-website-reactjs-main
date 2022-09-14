@@ -12,7 +12,7 @@ function Header() {
   };
   return (
     <header>
-      <video src="/daycare.mp4" loop autoPlay muted></video>
+      <video src="/daycare.mp4" autoPlay muted></video>
       <div className="row">
         
       </div>
