@@ -34,6 +34,7 @@ function Navbar() {
   //login signup
   function loginSuccess(){
     alert("success!")
+    //window.open("../containers/Login.js")
   }
   function signUpSuccess(){
     alert("success!")
@@ -110,7 +111,7 @@ function Navbar() {
              </Link>
             </li>
             <li>
-             <Link  onClick ={signUpSuccess}>
+             <Link  onClick ={loginSuccess}>
                <button className="btn" style={{ cursor: "pointer" }}>
                      Log in
                </button>
