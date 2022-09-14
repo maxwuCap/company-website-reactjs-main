@@ -1,5 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from "react-router-dom";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+
 
 function Header() {
   return (
@@ -8,11 +12,10 @@ function Header() {
       
       <div className="row">
         <button className="btn" style={{ cursor: "pointer" }}>
-          Sign Up
+                Sign Up
         </button>
-
         <button className="btn" style={{ cursor: "pointer" }}>
-          Log in
+              Log in
         </button>
       </div>
 
