@@ -1,4 +1,7 @@
 import Card from "./Card";
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 function Services() {
   return (
     <div className="container services">
