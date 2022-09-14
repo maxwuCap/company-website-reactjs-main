@@ -2,17 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter, Route, Routers } from "react-router-dom";
-import Login from "./containers/Login";
+import { BrowserRouter as Routers,Route} from "react-router-dom";
+//import Login from "./containers/Login.js";
 
   ReactDOM.render(
     <React.StrictMode>
-      <BrowserRouter>
-        <Route>
+        <Routers>
           <App/>
-          <Route path="login" element={<Login />} />
-        </Route>
-      </BrowserRouter>
+        </Routers>
     </React.StrictMode>,
   document.getElementById('root')
 );

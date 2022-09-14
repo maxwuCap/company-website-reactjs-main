@@ -3,9 +3,10 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+//import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Routes from "./Routes";
+import Login from "./containers/Login";
 
 function App() {
   return (
@@ -14,6 +15,11 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <Router>
+         <Route path="/" component={App}>
+            <Route path="login" component={Login}/>
+         </Route>
+      </Router>
     </>
   );
 }
