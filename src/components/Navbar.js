@@ -1,4 +1,7 @@
 import { Link } from "react-scroll";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Login from '../containers/Login'
 
 function Navbar() {
   document.addEventListener("scroll", function (e) {
@@ -28,7 +31,13 @@ function Navbar() {
 
     bar.classList.toggle("opened");
   }
-
+  //login signup
+  function loginSuccess(){
+    alert("success!")
+  }
+  function signUpSuccess(){
+    alert("success!")
+  }
   return (
     <nav className="navbar">
       <div className="container">
@@ -102,8 +111,22 @@ function Navbar() {
                 duration={1000}
                 activeClass="active"
               >
-                Contact
+                Contact  
               </Link>
+            </li>
+            <li>
+              <Link onClick ={loginSuccess}>
+               <bottom  className="btn" style={{ cursor: "pointer" }}>
+                      Sign Up
+                </bottom>
+             </Link>
+            </li>
+            <li>
+             <Link  onClick ={signUpSuccess}>
+               <button className="btn" style={{ cursor: "pointer" }}>
+                     Log in
+               </button>
+             </Link>
             </li>
           </ul>
           <div className="button" onClick={openBar}>

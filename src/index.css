@@ -135,7 +135,7 @@ code {
 .navbar ul { 
   transition: all 0.2s;
 
-  margin-left: 17rem;
+  margin-left: 10rem;
   list-style: none;
 }
 .navbar ul li {
@@ -186,7 +186,7 @@ video {
   z-index: 0;
   top: 0;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
 
 }
 header {
